@@ -1,7 +1,6 @@
 <?php
 
 if (post('submit')) {
-
     $menu = [];
     $menu_title = post('menu_title');
     if (!$menu_title) {
